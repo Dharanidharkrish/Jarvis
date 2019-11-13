@@ -1,6 +1,4 @@
-libraries {
-lib('jenkins-Library')
-}
+@Library('jenkins-Library')_
 pipeline {
     agent any
     tools {
